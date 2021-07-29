@@ -1,0 +1,7 @@
+C:\Users\becka\Documents\Sample Solutions - DBGridTest\DBGridTest - 7.1\bin\Debug\RuntimeConfig.xml
+C:\Users\becka\Documents\Sample Solutions - DBGridTest\DBGridTest - 7.1\bin\Debug\DBGridTest.dll
+C:\Users\becka\Documents\Sample Solutions - DBGridTest\DBGridTest - 7.1\bin\Debug\DBGridTest.pdb
+C:\Users\becka\Documents\Sample Solutions - DBGridTest\DBGridTest - 7.1\obj\Debug\ImportTypeMap.resources
+C:\Users\becka\Documents\Sample Solutions - DBGridTest\DBGridTest - 7.1\obj\Debug\DBGridTest.osproj.GenerateResource.Cache
+C:\Users\becka\Documents\Sample Solutions - DBGridTest\DBGridTest - 7.1\obj\Debug\DBGridTest.dll
+C:\Users\becka\Documents\Sample Solutions - DBGridTest\DBGridTest - 7.1\obj\Debug\DBGridTest.pdb

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DBGridTest">
+</Property><Property Name="Solution File" Value="C:\Users\OpenSpan User\Desktop\DBGridTest - 6.2\DBGridTest - 6.2\DBGridTest\DBGridTest\DBGridTest\DBGridTest.ossln">
+</Property><Property Name="Date" Value="Tuesday, January 20, 2015">
+</Property><Property Name="Time" Value="14:03 PM">
+</Property></Properties><Event ErrorLevel="3" Project="C:\Users\OpenSpan User\Desktop\DBGridTest - 6.2\DBGridTest - 6.2\DBGridTest\DBGridTest\DBGridTest\DBGridTest.osproj" Source="" Description="Upgraded project.">
+</Event><Event ErrorLevel="0" Project="" Source="DBGridTest.ossln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="DBGridTest.ossln" Description="No Conversion Required">
+</Event></UpgradeLog>
