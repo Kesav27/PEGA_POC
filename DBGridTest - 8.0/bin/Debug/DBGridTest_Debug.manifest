@@ -1,8 +1,0 @@
-<DeploymentManifest version="5.0">
-  <CompositeStudioProject name="DBGridTest" fileName="DBGridTest.dll" assemblyName="DBGridTest.dll" id="Project-8D03FAA2B1C9076" version="8.0.1037.0" deploymentVersion="1.14" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="7CEC42333DE2493BB9F856A8FA9AF1">
-    <Assemblies>
-      <Assembly value="DBGridTest.dll" digest="BA71DA37D104DD375247B58D961F37" />
-      <Assembly value="DBGridTest.pdb" digest="89032011DAD4D2500F3350B67786BA" />
-    </Assemblies>
-  </CompositeStudioProject>
-</DeploymentManifest>
