@@ -1,0 +1,8 @@
+C:\Users\Administrator\Downloads\Sample Solutions\8.0 SP1 solution\File Access - 8.0\bin\Debug\RuntimeConfig.xml
+C:\Users\Administrator\Downloads\Sample Solutions\8.0 SP1 solution\File Access - 8.0\bin\Debug\File_Access.dll
+C:\Users\Administrator\Downloads\Sample Solutions\8.0 SP1 solution\File Access - 8.0\bin\Debug\File_Access.pdb
+C:\Users\Administrator\Downloads\Sample Solutions\8.0 SP1 solution\File Access - 8.0\obj\Debug\File Access.osprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Sample Solutions\8.0 SP1 solution\File Access - 8.0\obj\Debug\ImportTypeMap.resources
+C:\Users\Administrator\Downloads\Sample Solutions\8.0 SP1 solution\File Access - 8.0\obj\Debug\File Access.osproj.GenerateResource.Cache
+C:\Users\Administrator\Downloads\Sample Solutions\8.0 SP1 solution\File Access - 8.0\obj\Debug\File_Access.dll
+C:\Users\Administrator\Downloads\Sample Solutions\8.0 SP1 solution\File Access - 8.0\obj\Debug\File_Access.pdb

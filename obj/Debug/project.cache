@@ -1,0 +1,9 @@
+<Cache>
+  <Project configuration="" />
+  <DesignComponents>
+    <DesignComponent id="Automator-8CA95F1C3E6BFF4" className="Append" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8CA95F01F28636A" className="Main_Automation" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="DesignForm-8CA95F01DA161C2" className="Windows_Form1" type="WinForm" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8CA95F116BB3300" className="Write" type="Automation" isPublic="True" screenShots="" />
+  </DesignComponents>
+</Cache>

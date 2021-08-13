@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="File_Access" fileName="File_Access.dll" assemblyName="File_Access.dll" id="Project-8D03FA9672B87CA" version="19.1.11185.0" deploymentVersion="1.11" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="A60DC2BD455ECEBCCC9C1663A84CCF9BE33F39">
+    <Assemblies>
+      <Assembly value="File_Access.dll" digest="D952C65DE6D89D546C3244120A6609B4D18FD3" />
+      <Assembly value="File_Access.pdb" digest="B115BF44D847F185DF2EEFA7872A58F2C0CBE9" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>
