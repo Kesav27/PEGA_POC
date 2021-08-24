@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 // _Default_Context_ context
-namespace HTML_Table_Click_Example.Project
+namespace HTMLGrid_to_Excel.Project
 {
 	
 	
@@ -21,9 +21,12 @@ namespace HTML_Table_Click_Example.Project
 			mName = "Default";
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
-			base.DesignComponentTypes.Add("HTML_Table_Click_Example.Dashboard");
-			base.DesignComponentTypes.Add("HTML_Table_Click_Example.Get_Cell_Value");
-			base.DesignComponentTypes.Add("HTML_Table_Click_Example.Windows_Form1");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Add_Row");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.AKPoker");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Copy_Table");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Globals");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Set_Headings");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Windows_Form");
 		}
 	}
 }
