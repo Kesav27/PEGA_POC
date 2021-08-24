@@ -1,9 +1,39 @@
 <Cache>
   <Project configuration="" />
   <DesignComponents>
-    <DesignComponent id="Automator-8CA95F1C3E6BFF4" className="Append" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8CA95F01F28636A" className="Main_Automation" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="DesignForm-8CA95F01DA161C2" className="Windows_Form1" type="WinForm" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8CA95F116BB3300" className="Write" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="WebAdapter-8CAEBA112BC18B8" className="Dashboard" type="Adapter" isPublic="True" screenShots="">
+      <Translators>
+        <Translator value="OpenSpan.WinInet.x32.dll" />
+        <Translator value="OpenSpan.WinInet.x64.dll" />
+      </Translators>
+      <BuildReferences>
+        <BuildReference value="DefaultWindowFactoryConfiguration.xml" />
+        <BuildReference value="Pega.Windows.Broker.x32.dll" />
+        <BuildReference value="Pega.Windows.Broker.x64.dll" />
+        <BuildReference value="openspan.ini" />
+        <BuildReference value="Pega.Scout.x32.dll" />
+        <BuildReference value="Pega.GlobalAllocator.x32.dll" />
+        <BuildReference value="Pega.GlobalAllocator.x64.dll" />
+        <BuildReference value="Pega.WinQueue.x32.dll" />
+        <BuildReference value="Pega.WinQueue.x64.dll" />
+        <BuildReference value="Pega.Scout.x64.dll" />
+        <BuildReference value="Pega.Security.x32.dll" />
+        <BuildReference value="Pega.Security.x64.dll" />
+        <BuildReference value="Pega.SharedMemory.x32.dll" />
+        <BuildReference value="Pega.SharedMemory.x64.dll" />
+        <BuildReference value="Pega.Sinon.x32.dll" />
+        <BuildReference value="Pega.Sinon.x64.dll" />
+        <BuildReference value="Pega.Utilities.x32.dll" />
+        <BuildReference value="Pega.Utilities.x64.dll" />
+        <BuildReference value="Pega.WER.x32.dll" />
+        <BuildReference value="Pega.WER.x64.dll" />
+        <BuildReference value="OpenSpan.WinInet.x32.dll" />
+        <BuildReference value="OpenSpan.WinInet.x64.dll" />
+        <BuildReference value="OpenSpan.x32.sys" />
+        <BuildReference value="OpenSpan.x64.sys" />
+      </BuildReferences>
+    </DesignComponent>
+    <DesignComponent id="Automator-8CAEBA7F4B434D4" className="Get_Cell_Value" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="DesignForm-8CAEBA1D8FEA4C8" className="Windows_Form1" type="WinForm" isPublic="True" screenShots="" />
   </DesignComponents>
 </Cache>

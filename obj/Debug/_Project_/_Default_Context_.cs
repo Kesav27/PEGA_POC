@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 // _Default_Context_ context
-namespace File_Access.Project
+namespace HTML_Table_Click_Example.Project
 {
 	
 	
@@ -21,10 +21,9 @@ namespace File_Access.Project
 			mName = "Default";
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
-			base.DesignComponentTypes.Add("File_Access.Append");
-			base.DesignComponentTypes.Add("File_Access.Main_Automation");
-			base.DesignComponentTypes.Add("File_Access.Windows_Form1");
-			base.DesignComponentTypes.Add("File_Access.Write");
+			base.DesignComponentTypes.Add("HTML_Table_Click_Example.Dashboard");
+			base.DesignComponentTypes.Add("HTML_Table_Click_Example.Get_Cell_Value");
+			base.DesignComponentTypes.Add("HTML_Table_Click_Example.Windows_Form1");
 		}
 	}
 }

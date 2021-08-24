@@ -15,9 +15,9 @@
 [assembly: System.Reflection.AssemblyVersionAttribute("19.1.0.0")]
 [assembly: System.Runtime.Versioning.TargetFrameworkAttribute(".NETFramework,Version=v4.0")]
 [assembly: OpenSpan.Design.ProductVersionAttribute("19.1.0.0")]
-[assembly: OpenSpan.Design.ProjectAssemblyAttribute("Project-8D03FA9672B87CA")]
+[assembly: OpenSpan.Design.ProjectAssemblyAttribute("Project-8D03FA938B00F24")]
 
-namespace File_Access
+namespace HTML_Table_Click_Example
 {
 	using System;
 	
