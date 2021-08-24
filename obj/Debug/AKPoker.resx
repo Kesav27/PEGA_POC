@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Player.TableSchema" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Player" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="Player"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Player_Key" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="dataCell_Name" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="dataCell_Wins" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="dataCell_Losses" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="dataCell_PercentWon" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="dataCell_Streak" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="dataCell_Earnings" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="dataCell_Hometown" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Player_ParentKey" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+  <data name="Div.TableSchema" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Div" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="Div"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Div_Key" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="dataCell2_Div" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Div_ParentKey" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+  <data name="League.TableSchema" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="League" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="League"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="League_Key" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="dataCell1" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+  <data name="_AKPoker_1_" xml:space="preserve">
+    <value>OSVSXyQYAAL2VW0+DMBiG/wrxeimgw41kmMx5yGKMuul2XcqHNpaW9BDHvxdkUSZQjDFecNHw9PnerweYLUSWCw5cL3kqzmaPRQ7OBjMD0dFdDnydY47mCc41SIW2EFfPfnzkuGezuVKQxaywTKI8EW9q5GzKERU8GiMfecgbOQvDtJEQcTBaYnbgW0EKEjgB1a6xLpSGrCn0OoUj597EjJIbKB7FK/AonkxwQIJTPzwZgzcNf9bBVyE/7IneqpQGSRz6kBDvOJmSAH67Vv9RcclB/1lFt2sDLwqOM0rar6oZV5RBE67Grbz7mGh3cowSVh8VO3g6/gTd7yXODWVJX80LSHHZeb0VV5hoIYuF4Cl9NhLrconQLmsHEGUAVQWgnP4g3W/a6AQrkyqUBSgNXcA9PGN0zUSM2ZwxQXDZZ2+ubrgn2we8JsL099lErBYgRlJdDIg+KavrBUtIbiEr93PAd0BanZQLPiCrEZvlSVNGNQVlNzUwm217ubJ7PgCrof4KoXNZ3vOBQ/GdHfA+GDAwaNxTzSvcurLu4Z/rHQ==</value>
+  </data>
+  <data name="_AKPoker_2_" xml:space="preserve">
+    <value>OSVSXEAEAAI2PywrCMBBFfyVkX61trQrWjSK40aIFlzJNpxhMk5KHEL/eWCluXd7D5dyZdalVj9p60ngJHWeV77GgI6UkwJDbLMZVDPNoBvEiyljSRHW9gGgJeZ7kmDK2TG9b5aSlhIE8IzQFrbTDIV41t0GyB2ECsMPCxRuL3eQgbZpQAoKDOQ5TpQCPepSZu3KiuaDmofL6SZ7c8JoLbn1Bd9iCE/YkQ105zf68l5JaKPb4PPxdpmS6eQM=</value>
+  </data>
+  <data name="_AKPoker_3_" xml:space="preserve">
+    <value>OSVSXDQEAAI2POwsCMRCE/0pIfz7uPPVAbRTBRkUFS9kkKy7GRPIQ4q83noit5cwO8+1Mts7e0YXEVDJwI3lId5zyr8tZNrNGKUaNUlA0Y8BiMKrLAuqyKob9noAzirppqtPcRhM4k2B2CGrKDy5iK4+OQi5ZgvbZCC1hn3zAW2dlQlVyBprAr1vUgh7fJn+xUas9Osr356/hQZ4EaQopx/EMUYeNyXEbnfzzWc6EtvL6XvvBctadvQA=</value>
+  </data>
+  <data name="_AKPoker_4_" xml:space="preserve">
+    <value>OSVSXEAEAAI2PywrCMBBFfyVkXx9trRWsG0UQREUFlzJJRw3GpOQhxK83Vopbl/dwOXdmujO6QeMCqYOCh+DH0GBFO0pJhDFnwwnnKeRJyopRko8HRQI4uSQ5Y1nKSz6soTzPtVeOEg5qj1BX9Gg8tvFkhIuSJUgbgWsXDsE6fPRWymUpJSAF2E07tUa4euxk9qa9rA9oRKy8fpKnsIIJKVyo6AIv4KXbqljX3vA/76WESc3vn4e/y5T0Z28=</value>
+  </data>
+</root>

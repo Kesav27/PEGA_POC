@@ -1,0 +1,14 @@
+<Project>
+  <Server>
+    <Group Name="" Id="" />
+    <PromotionLevel Name="" Id="" />
+  </Server>
+  <Preferences>
+    <ComponentTraySettings GroupBy="-1" View="List">
+      <Automator-8CA8A2D4771DA82 Height="130" />
+      <Automator-8CA8A2E6E0F2FD6 Height="130" />
+      <Automator-8CA8A2C51E46936 Height="130" />
+      <Automator-8CA8D447502A098 Height="130" />
+    </ComponentTraySettings>
+  </Preferences>
+</Project>
