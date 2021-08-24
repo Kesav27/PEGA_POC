@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HTMLGrid to Excel">
+</Property><Property Name="Solution File" Value="C:\Users\OpenSpan User\Downloads\HTMLGrid to Excel - 6.2\HTMLGrid to Excel - 6.2\HTMLGrid to Excel\HTMLGrid to Excel\HTMLGrid to Excel.ossln">
+</Property><Property Name="Date" Value="Tuesday, January 20, 2015">
+</Property><Property Name="Time" Value="13:37 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="3" Project="C:\Users\OpenSpan User\Downloads\HTMLGrid to Excel - 6.2\HTMLGrid to Excel - 6.2\HTMLGrid to Excel\HTMLGrid to Excel\HTMLGrid to Excel\HTMLGrid to Excel.osproj" Source="" Description="Upgraded project.">
+</Event><Event ErrorLevel="0" Project="" Source="HTMLGrid to Excel.ossln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="HTMLGrid to Excel.ossln" Description="No Conversion Required">
+</Event></UpgradeLog>
