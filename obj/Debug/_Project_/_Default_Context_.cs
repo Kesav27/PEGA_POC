@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 // _Default_Context_ context
-namespace File_Access.Project
+namespace HTMLGrid_to_Excel.Project
 {
 	
 	
@@ -21,10 +21,12 @@ namespace File_Access.Project
 			mName = "Default";
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
-			base.DesignComponentTypes.Add("File_Access.Append");
-			base.DesignComponentTypes.Add("File_Access.Main_Automation");
-			base.DesignComponentTypes.Add("File_Access.Windows_Form1");
-			base.DesignComponentTypes.Add("File_Access.Write");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Add_Row");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.AKPoker");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Copy_Table");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Globals");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Set_Headings");
+			base.DesignComponentTypes.Add("HTMLGrid_to_Excel.Windows_Form");
 		}
 	}
 }

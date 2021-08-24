@@ -1,24 +1,27 @@
 using System;
 
-namespace File_Access
+namespace HTML_Table_Click_Example
 {
 /// <summary>
 /// OpenSpan design component.
 /// </summary>
-// DesignForm-8CA95F01DA161C2
-[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8CA95F01DA161C2")]
+// DesignForm-8CAEBA1D8FEA4C8
+[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8CAEBA1D8FEA4C8")]
 [System.ComponentModel.ToolboxItemAttribute(false)]
 public sealed class Windows_Form1 : OpenSpan.Design.DesignForm
 {
 	
-	[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8CA95F01DA161C2\\Label-8CA95F21DDDFC0C")]
+	[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8CAEBA1D8FEA4C8\\Label-8CAEBA2FE2F3252")]
+	public System.Windows.Forms.Label lblSupportPlanAmount;
+	
+	[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8CAEBA1D8FEA4C8\\Button-8CAEBA2CDBF0BD8")]
+	public System.Windows.Forms.Button btnGetCellValue;
+	
+	[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8CAEBA1D8FEA4C8\\TextBox-8CAEBA25FEF1C92")]
+	public System.Windows.Forms.TextBox txtProdID;
+	
+	[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8CAEBA1D8FEA4C8\\Label-8CAEBA25627B76E")]
 	public System.Windows.Forms.Label label1;
-	
-	[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8CA95F01DA161C2\\TextBox-8CA95F1574338FA")]
-	public System.Windows.Forms.TextBox txtFileName;
-	
-	[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8CA95F01DA161C2\\Button-8CA95F0AA17AC06")]
-	public System.Windows.Forms.Button btnRun;
 	
 	public Windows_Form1()
 	{
@@ -29,9 +32,10 @@ public sealed class Windows_Form1 : OpenSpan.Design.DesignForm
 		// 
 		// Setup field members
 		// 
+		this.lblSupportPlanAmount = new System.Windows.Forms.Label();
+		this.btnGetCellValue = new System.Windows.Forms.Button();
+		this.txtProdID = new System.Windows.Forms.TextBox();
 		this.label1 = new System.Windows.Forms.Label();
-		this.txtFileName = new System.Windows.Forms.TextBox();
-		this.btnRun = new System.Windows.Forms.Button();
 		this.SuspendLayout();
 		// 
 		// Initialize design component
@@ -40,47 +44,56 @@ public sealed class Windows_Form1 : OpenSpan.Design.DesignForm
 		// 
 		// Set design component Id
 		// 
-		this.Id = new OpenSpan.Design.ComponentIdentity("DesignForm-8CA95F01DA161C2");
+		this.Id = new OpenSpan.Design.ComponentIdentity("DesignForm-8CAEBA1D8FEA4C8");
 		// 
 		// Set component Ids
 		// 
-		this.SetId(this.label1, new OpenSpan.Design.ComponentIdentity("Label-8CA95F21DDDFC0C"));
-		this.SetId(this.txtFileName, new OpenSpan.Design.ComponentIdentity("TextBox-8CA95F1574338FA"));
-		this.SetId(this.btnRun, new OpenSpan.Design.ComponentIdentity("Button-8CA95F0AA17AC06"));
+		this.SetId(this.lblSupportPlanAmount, new OpenSpan.Design.ComponentIdentity("Label-8CAEBA2FE2F3252"));
+		this.SetId(this.btnGetCellValue, new OpenSpan.Design.ComponentIdentity("Button-8CAEBA2CDBF0BD8"));
+		this.SetId(this.txtProdID, new OpenSpan.Design.ComponentIdentity("TextBox-8CAEBA25FEF1C92"));
+		this.SetId(this.label1, new OpenSpan.Design.ComponentIdentity("Label-8CAEBA25627B76E"));
 		// 
 		// Windows_Form1
 		// 
 		this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 		this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 		this.BackColor = System.Drawing.SystemColors.Control;
-		this.ClientSize = new System.Drawing.Size(292, 71);
+		this.ClientSize = new System.Drawing.Size(562, 132);
+		// 
+		// lblSupportPlanAmount
+		// 
+		this.lblSupportPlanAmount.Location = new System.Drawing.Point(263, 64);
+		this.lblSupportPlanAmount.Name = "lblSupportPlanAmount";
+		this.lblSupportPlanAmount.TabIndex = 3;
+		this.lblSupportPlanAmount.Text = "----------";
+		// 
+		// btnGetCellValue
+		// 
+		this.btnGetCellValue.Location = new System.Drawing.Point(22, 65);
+		this.btnGetCellValue.Name = "btnGetCellValue";
+		this.btnGetCellValue.Size = new System.Drawing.Size(203, 23);
+		this.btnGetCellValue.TabIndex = 2;
+		this.btnGetCellValue.Text = "Get Support Plan Amount";
+		this.btnGetCellValue.UseVisualStyleBackColor = true;
+		// 
+		// txtProdID
+		// 
+		this.txtProdID.Location = new System.Drawing.Point(129, 26);
+		this.txtProdID.Name = "txtProdID";
+		this.txtProdID.Size = new System.Drawing.Size(265, 20);
+		this.txtProdID.TabIndex = 1;
 		// 
 		// label1
 		// 
-		this.label1.Location = new System.Drawing.Point(124, 8);
+		this.label1.Location = new System.Drawing.Point(22, 26);
 		this.label1.Name = "label1";
-		this.label1.TabIndex = 2;
-		this.label1.Text = "File Name";
-		// 
-		// txtFileName
-		// 
-		this.txtFileName.Location = new System.Drawing.Point(124, 34);
-		this.txtFileName.Name = "txtFileName";
-		this.txtFileName.Size = new System.Drawing.Size(140, 20);
-		this.txtFileName.TabIndex = 1;
-		this.txtFileName.Text = "c:\\Fritz.txt";
-		// 
-		// btnRun
-		// 
-		this.btnRun.Location = new System.Drawing.Point(16, 32);
-		this.btnRun.Name = "btnRun";
-		this.btnRun.TabIndex = 0;
-		this.btnRun.Text = "Run";
-		this.btnRun.UseVisualStyleBackColor = true;
+		this.label1.TabIndex = 0;
+		this.label1.Text = "Product ID:";
+		this.Controls.Add(this.lblSupportPlanAmount);
+		this.Controls.Add(this.btnGetCellValue);
+		this.Controls.Add(this.txtProdID);
 		this.Controls.Add(this.label1);
-		this.Controls.Add(this.txtFileName);
-		this.Controls.Add(this.btnRun);
-		this.Location = new System.Drawing.Point(156, 156);
+		this.Location = new System.Drawing.Point(104, 104);
 		this.Name = "Windows_Form1";
 		this.Text = "Design Form";
 		this.Visible = false;
@@ -90,9 +103,10 @@ public sealed class Windows_Form1 : OpenSpan.Design.DesignForm
 		// Add components
 		// 
 		this.mComponents = new System.Collections.Generic.List<System.ComponentModel.IComponent>(20);
+		this.Components.Add(this.lblSupportPlanAmount);
+		this.Components.Add(this.btnGetCellValue);
+		this.Components.Add(this.txtProdID);
 		this.Components.Add(this.label1);
-		this.Components.Add(this.txtFileName);
-		this.Components.Add(this.btnRun);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -121,51 +135,66 @@ public sealed class Windows_Form1 : OpenSpan.Design.DesignForm
 		base.Stop();
 	}
 	
+	internal System.Windows.Forms.Label Create_lblSupportPlanAmount(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		System.Windows.Forms.Label lblSupportPlanAmount = new System.Windows.Forms.Label();
+		this.SetId(lblSupportPlanAmount, new OpenSpan.Design.ComponentIdentity("Label-8CAEBA2FE2F3252"));
+		lblSupportPlanAmount.Location = new System.Drawing.Point(263, 64);
+		lblSupportPlanAmount.Name = "lblSupportPlanAmount";
+		lblSupportPlanAmount.TabIndex = 3;
+		lblSupportPlanAmount.Text = "----------";
+		// 
+		// Result
+		// 
+		return lblSupportPlanAmount;
+	}
+	
+	internal System.Windows.Forms.Button Create_btnGetCellValue(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		System.Windows.Forms.Button btnGetCellValue = new System.Windows.Forms.Button();
+		this.SetId(btnGetCellValue, new OpenSpan.Design.ComponentIdentity("Button-8CAEBA2CDBF0BD8"));
+		btnGetCellValue.Location = new System.Drawing.Point(22, 65);
+		btnGetCellValue.Name = "btnGetCellValue";
+		btnGetCellValue.Size = new System.Drawing.Size(203, 23);
+		btnGetCellValue.TabIndex = 2;
+		btnGetCellValue.Text = "Get Support Plan Amount";
+		btnGetCellValue.UseVisualStyleBackColor = true;
+		// 
+		// Result
+		// 
+		return btnGetCellValue;
+	}
+	
+	internal System.Windows.Forms.TextBox Create_txtProdID(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		System.Windows.Forms.TextBox txtProdID = new System.Windows.Forms.TextBox();
+		this.SetId(txtProdID, new OpenSpan.Design.ComponentIdentity("TextBox-8CAEBA25FEF1C92"));
+		txtProdID.Location = new System.Drawing.Point(129, 26);
+		txtProdID.Name = "txtProdID";
+		txtProdID.Size = new System.Drawing.Size(265, 20);
+		txtProdID.TabIndex = 1;
+		// 
+		// Result
+		// 
+		return txtProdID;
+	}
+	
 	internal System.Windows.Forms.Label Create_label1(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
 	{
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.Label label1 = new System.Windows.Forms.Label();
-		this.SetId(label1, new OpenSpan.Design.ComponentIdentity("Label-8CA95F21DDDFC0C"));
-		label1.Location = new System.Drawing.Point(124, 8);
+		this.SetId(label1, new OpenSpan.Design.ComponentIdentity("Label-8CAEBA25627B76E"));
+		label1.Location = new System.Drawing.Point(22, 26);
 		label1.Name = "label1";
-		label1.TabIndex = 2;
-		label1.Text = "File Name";
+		label1.TabIndex = 0;
+		label1.Text = "Product ID:";
 		// 
 		// Result
 		// 
 		return label1;
-	}
-	
-	internal System.Windows.Forms.TextBox Create_txtFileName(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
-	{
-		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
-		System.Windows.Forms.TextBox txtFileName = new System.Windows.Forms.TextBox();
-		this.SetId(txtFileName, new OpenSpan.Design.ComponentIdentity("TextBox-8CA95F1574338FA"));
-		txtFileName.Location = new System.Drawing.Point(124, 34);
-		txtFileName.Name = "txtFileName";
-		txtFileName.Size = new System.Drawing.Size(140, 20);
-		txtFileName.TabIndex = 1;
-		txtFileName.Text = "c:\\Fritz.txt";
-		// 
-		// Result
-		// 
-		return txtFileName;
-	}
-	
-	internal System.Windows.Forms.Button Create_btnRun(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
-	{
-		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
-		System.Windows.Forms.Button btnRun = new System.Windows.Forms.Button();
-		this.SetId(btnRun, new OpenSpan.Design.ComponentIdentity("Button-8CA95F0AA17AC06"));
-		btnRun.Location = new System.Drawing.Point(16, 32);
-		btnRun.Name = "btnRun";
-		btnRun.TabIndex = 0;
-		btnRun.Text = "Run";
-		btnRun.UseVisualStyleBackColor = true;
-		// 
-		// Result
-		// 
-		return btnRun;
 	}
 }
 

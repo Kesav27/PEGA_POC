@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="HTML_Table_Click_Example" fileName="HTML_Table_Click_Example.dll" assemblyName="HTML_Table_Click_Example.dll" id="Project-8D03FA938B00F24" version="19.1.11185.0" deploymentVersion="1.8" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="A6EC9D06FB2CE766353A89FC6BF47EDEFCD160">
+    <Assemblies>
+      <Assembly value="HTML_Table_Click_Example.dll" digest="F2883D540B987C9428BD289D4AB863BE86A39D" />
+      <Assembly value="HTML_Table_Click_Example.pdb" digest="AC5E7212F0CE0681AC1B940BC3038B748BCDB7" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>

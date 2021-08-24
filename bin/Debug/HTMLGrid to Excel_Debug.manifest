@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="HTMLGrid_to_Excel" fileName="HTMLGrid_to_Excel.dll" assemblyName="HTMLGrid_to_Excel.dll" id="Project-8D03FA906C94B2D" version="19.1.11185.0" deploymentVersion="1.11" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="447E1306EC303CE949CF8C471211F692B4D4D6">
+    <Assemblies>
+      <Assembly value="HTMLGrid_to_Excel.dll" digest="5A4BA26C0401967427A490202D4A0BFB7FCC9C" />
+      <Assembly value="HTMLGrid_to_Excel.pdb" digest="2834DAFA33B117D0FF9994FC3B7A0F8CFDD4DA" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>
